@@ -1,5 +1,9 @@
 # Universal Gamepad Adapter 1.0
 
+[![Windows CI](https://github.com/AltierresSilva/UniversalGamepadAdapter/actions/workflows/ci.yml/badge.svg)](https://github.com/AltierresSilva/UniversalGamepadAdapter/actions/workflows/ci.yml)
+
+Repositório: https://github.com/AltierresSilva/UniversalGamepadAdapter · [Abrir issue](https://github.com/AltierresSilva/UniversalGamepadAdapter/issues/new/choose) · [Discussões](https://github.com/AltierresSilva/UniversalGamepadAdapter/discussions)
+
 **Desenvolvido com assistência de IA (OpenAI Codex).** Leia a [declaração de transparência](docs/AI-DISCLOSURE.md) e o [guia de contribuição](CONTRIBUTING.md). A validação com hardware e jogos ainda está em andamento; consulte `docs/VALIDATION.md`.
 
 Código sob [licença MIT](LICENSE). Contribuições e relatos de compatibilidade são bem-vindos. Veja o [roadmap](docs/ROADMAP.md), as [regras de convivência](CODE_OF_CONDUCT.md) e a [política de segurança](SECURITY.md). Este é um projeto comunitário experimental, sem vínculo oficial com Microsoft, Sony ou fabricantes de controles.
@@ -42,7 +46,7 @@ Fechar a janela mantém o UGA na bandeja por padrão. Para liberar o virtual e e
 
 ## Compilar
 
-Requer SDK .NET 10 e, para Setup.exe, Inno Setup 6+.
+Clone com `git clone https://github.com/AltierresSilva/UniversalGamepadAdapter.git` e entre na pasta do projeto. Requer SDK .NET 10 e, para Setup.exe, Inno Setup 6+.
 
 ```powershell
 .\build.ps1

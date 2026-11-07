@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><AllowUnsafeBlocks>true</AllowUnsafeBlocks></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../UGA.Core/UGA.Core.csproj" />
+    <PackageReference Include="SDL3-CS" Version="3.4.20.0" />
+    <PackageReference Include="SDL3-CS.Windows" Version="3.4.20.0" />
+    <PackageReference Include="Nefarius.ViGEm.Client" Version="1.21.256" />
+  </ItemGroup>
+</Project>

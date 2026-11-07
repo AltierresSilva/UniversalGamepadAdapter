@@ -1,0 +1,20 @@
+name: Propor melhoria
+description: Discuta uma implementação ou melhoria antes de um PR grande.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Qual problema você quer resolver?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta e alternativas
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Como validar e quais dispositivos serão necessários?

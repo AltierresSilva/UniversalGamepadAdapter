@@ -1,0 +1,34 @@
+name: Relatar problema
+description: Informe um comportamento reproduzível do UGA.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Não inclua seriais, caminhos pessoais, senhas ou logs privados. Vulnerabilidades devem seguir SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Versões do UGA e Windows
+    validations:
+      required: true
+  - type: textarea
+    id: device
+    attributes:
+      label: Controle e ambiente
+      description: Modelo, VID/PID se conhecidos, USB/Bluetooth, drivers e outros remapeadores.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Passos para reproduzir
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Resultado esperado e observado
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidências sem dados pessoais

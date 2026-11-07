@@ -1,0 +1,18 @@
+**/bin/
+**/obj/
+artifacts/
+.vs/
+TestResults/
+
+# Dados locais e credenciais
+.env
+.env.*
+*.user
+*.suo
+*.pfx
+*.p12
+*.key
+*.log
+Assets/Previous/
+
+**/Assets/Previous/
